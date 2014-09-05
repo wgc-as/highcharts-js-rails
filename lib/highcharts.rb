@@ -1,5 +1,5 @@
 require 'action_view'
-require 'active_support/core_ext/object/to_json'
+require 'active_support/core_ext/object/json'
 
 class Highcharts < ActionView::Base
   include ActionView::Helpers
